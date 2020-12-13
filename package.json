@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kwmorlock/lgbtqstories-be#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "knex": "^0.21.13",
     "knex-cleaner": "^1.3.1",
     "sqlite3": "^5.0.0"
