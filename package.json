@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kwmorlock/lgbtqstories-be/issues"
   },
-  "homepage": "https://github.com/kwmorlock/lgbtqstories-be#readme"
+  "homepage": "https://github.com/kwmorlock/lgbtqstories-be#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
