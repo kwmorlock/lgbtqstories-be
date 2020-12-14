@@ -26,6 +26,27 @@ exports.up = function(knex) {
           .onDelete("CASCADE")
           .onUpdate("CASCADE");
       })
+      .createTable("adminNote", (tbl) => {
+        tbl.increments();
+        tbl.string("note", 255);
+        tbl
+          .integer("storyId")
+          .unsigned()
+          .notNullable()
+          .references("id")
+          .inTable("stories")
+          .onDelete("CASCADE")
+          .onUpdate("CASCADE");
+  
+        tbl
+          .integer("adminsId")
+          .unsigned()
+          .notNullable()
+          .references("id")
+          .inTable("admins")
+          .onDelete("CASCADE")
+          .onUpdate("CASCADE");
+      });
   
 };
 
