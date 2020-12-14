@@ -13,6 +13,19 @@ exports.up = function(knex) {
         tbl.string("password", 20).notNullable();
         tbl.string("email")
       })
+      .createTable("stories", (tbl) => {
+        tbl.increments();
+        tbl.string("title", 50).index().notNullable();
+        tbl.string("story", 500).notNullable();
+        tbl
+          .integer("usersId")
+          .unsigned()
+          .notNullable()
+          .references("id")
+          .inTable("users")
+          .onDelete("CASCADE")
+          .onUpdate("CASCADE");
+      })
   
 };
 
