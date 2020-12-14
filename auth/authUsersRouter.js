@@ -34,7 +34,7 @@ router.post("/login", (req, res) => {
   const { username, password } = req.body;
 
   if (isValid(req.body)) {
-    Users.findBy({ "u.username": username })
+    Users.findBy({ "users.username": username })
       .then(([user]) => {
         if (user && bcryptjs.compareSync(password, user.password)) {
           const token = createToken(user);
