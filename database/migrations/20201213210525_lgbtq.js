@@ -51,5 +51,9 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-  
+    return knex.schema
+    .dropTableIfExists("adminNote")
+    .dropTableIfExists("stories")
+    .dropTableIfExists("admins")
+    .dropTableIfExists("users")
 };
