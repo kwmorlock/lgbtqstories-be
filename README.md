@@ -10,19 +10,19 @@
 ---
 ### Commits
 ---
-Cle - Clean up code or sorting files
+##### Cle - Clean up code or sorting files
 ---
-Com - Comments added to code
+##### Com - Comments added to code
 ---
-Cre - Create a new file, database etc
+##### Cre - Create a new file, database etc
 ---
-Dep - Dependency installed
+##### Dep - Dependency installed
 ---
-Fix - Fix errors or bugs
+##### Fix - Fix errors or bugs
 ---
-Rea - Read me update
+##### Rea - Read me update
 ---
-Set - Setup a new function etc
+##### Set - Setup a new function etc
 ---
-Upd - Update code for improved or more relevant use
+##### Upd - Update code for improved or more relevant use
 ---
