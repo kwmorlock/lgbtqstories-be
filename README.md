@@ -26,3 +26,12 @@
 ---
 ##### Upd - Update code for improved or more relevant use
 ---
+## Repos
+
+---
+
+[Front End](https://github.com/kwmorlock/lgbtqstories-fe)
+
+[Back End](https://github.com/kwmorlock/lgbtqstories-be)
+
+---
