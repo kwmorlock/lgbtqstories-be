@@ -7,7 +7,7 @@ const { isValid } = require("./adminsService");
 router.use(restricted);
 
 router.get("/", (req, res) => {
-  Admins.findAdmins()
+  Admins.findAdmin()
     .then((users) => {
       res.status(200).json({ users, jwt: req.jwt });
     })
