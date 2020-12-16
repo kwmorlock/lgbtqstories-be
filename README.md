@@ -35,3 +35,9 @@
 [Back End](https://github.com/kwmorlock/lgbtqstories-be)
 
 ---
+# Register / Login Endpoints
+| Request | URL | Description |
+| ------- | --- | ----------- |
+| POST | /api/users/auth/register| register as a new user |
+| POST | /api/users/auth/login | login as an existing user |
+| POST | /api/admins/auth/login | login as an existing admin |
