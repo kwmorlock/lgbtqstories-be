@@ -52,3 +52,14 @@
 | PUT | api/stories/:id | edit specific stories for user |
 | DELETE | api/stories/:id | delete specific stories for user |
 
+# Notes Endpoints
+| Request | URL | Description |
+| ------- | --- | ----------- |
+| GET | api/notes | get all notes (needs to be logged in) |
+| GET | api/notes/:id | get note with specific id |
+| GET | api/notes/admins/:id | get all notes from specific admin id |
+| POST | api/notes | add note from admin |
+| PUT | api/notes/:id | edit specific note for admin |
+| DELETE | api/notes/:id | delete specific note for admin |
+
+
