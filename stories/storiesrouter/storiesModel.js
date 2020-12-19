@@ -12,7 +12,7 @@ module.exports = {
 function find() {
   return db("stories")
     .join("users", "users.id", "stories.usersId")
-    .select("stories.id", "stories.title", "stories.story", "stories.tags");
+    .select("stories.id", "stories.title", "stories.story", "stories.tags", "stories.usersId");
 }
 
 function findById(id) {
@@ -36,7 +36,7 @@ function update(updates, id) {
 }
 
 function destroy(id) {
-  return db("stories").where({ id }).del();
+  return db("stories").where( "id", id ).del();
 }
 
 function findByUser(usersId) {
@@ -53,3 +53,4 @@ function findByUser(usersId) {
     )
     .where("stories.UsersId", usersId);
 }
+
