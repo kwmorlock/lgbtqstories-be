@@ -88,4 +88,14 @@
 | PUT | api/notes/:id | edit specific note for admin |
 | DELETE | api/notes/:id | delete specific note for admin |
 
+# Notes
+| Name | Type | Required | Unique | Notes |
+| ---- | ---- | -------- | ------ | ----- |
+| id | integer | yes | yes | story id |
+| title | string | yes | no | story title|
+| story | string | yes | no | story |
+| tags | string | yes | no | story tags |
+| note | string | yes | no | admin note |
+| adminsId | integer | yes | no | admins id |
+
 
