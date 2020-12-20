@@ -52,6 +52,13 @@
 | POST | /api/users/auth/login | login as an existing user |
 | POST | /api/admins/auth/login | login as an existing admin |
 
+# Users
+| Name | Type | Required | Unique | Notes |
+| ---- | ---- | -------- | ------ | ----- |
+| username | string | yes | yes | users username |
+| password | string | yes | no | users password |
+| email | string | no | no | users email |
+
 # Stories Endpoints
 | Request | URL | Description |
 | ------- | --- | ----------- |
