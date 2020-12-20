@@ -15,6 +15,17 @@
 [Back End](https://lgbtqstories.herokuapp.com/)
 
 ---
+
+## Repos
+
+---
+
+[Front End](https://github.com/kwmorlock/lgbtqstories-fe)
+
+[Back End](https://github.com/kwmorlock/lgbtqstories-be)
+
+---
+
 ### Commits
 ---
 ##### Cle - Clean up code or sorting files
@@ -33,15 +44,7 @@
 ---
 ##### Upd - Update code for improved or more relevant use
 ---
-## Repos
 
----
-
-[Front End](https://github.com/kwmorlock/lgbtqstories-fe)
-
-[Back End](https://github.com/kwmorlock/lgbtqstories-be)
-
----
 # Register / Login Endpoints
 | Request | URL | Description |
 | ------- | --- | ----------- |
