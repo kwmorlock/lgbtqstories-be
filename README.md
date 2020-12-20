@@ -69,6 +69,15 @@
 | PUT | api/stories/:id | edit specific stories for user |
 | DELETE | api/stories/:id | delete specific stories for user |
 
+# Stories
+| Name | Type | Required | Unique | Notes |
+| ---- | ---- | -------- | ------ | ----- |
+| id | integer | yes | yes | story id |
+| title | string | yes | no | story title|
+| story | string | yes | no | story |
+| tags | string | yes | no | story tags|
+| usersId | integer | yes | no | users id |
+
 # Notes Endpoints
 | Request | URL | Description |
 | ------- | --- | ----------- |
