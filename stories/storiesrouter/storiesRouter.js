@@ -34,8 +34,8 @@ router.post("/:id", (req, res) => {
   const storyStuff = req.body;
 
   Stories.add(storyStuff)
-    .then((story) => {
-      res.status(201).json(story);
+    .then((newStory) => {
+      res.status(201).json({ newStory });
     })
     .catch((error) => {
       res.status(500).json({ message: error });
