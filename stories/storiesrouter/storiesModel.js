@@ -44,6 +44,7 @@ function findByUser(usersId) {
     .join("users", "users.id", "stories.usersId")
     .select(
       "users.id",
+      "stories.id",
       "stories.title",
       "stories.story",
       "stories.tags",
