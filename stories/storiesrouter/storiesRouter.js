@@ -28,7 +28,9 @@ router.get("/:id", (req, res) => {
     });
 });
 
-router.post("/", (req, res) => {
+router.post("/:id", (req, res) => {
+  const id = req.params.id;
+  req.body.usersId = id;
   const storyStuff = req.body;
 
   Stories.add(storyStuff)
