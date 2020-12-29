@@ -67,7 +67,7 @@
 | GET | api/stories | get all stories for all users (needs to be logged in) |
 | GET | api/stories/:id | get stories with specific id |
 | GET | api/stories/users/:id | get all stories from specific user id |
-| POST | api/stories| add stories from user |
+| POST | api/stories/:id | add stories from user |
 | PUT | api/stories/:id | edit specific stories for user |
 | DELETE | api/stories/:id | delete specific stories for user |
 
