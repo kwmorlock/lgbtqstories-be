@@ -14,7 +14,7 @@
 
 [Back End](https://lgbtqstories.herokuapp.com/)
 
-[Front End](https://lgbtqstories.netlify.app/#/register)
+[Front End](https://lgbtqstories.netlify.app/)
 
 ---
 
