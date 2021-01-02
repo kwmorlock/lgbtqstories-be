@@ -62,6 +62,7 @@ function findByAdmin(id) {
     .join("stories", "adminNote.storyId", "stories.id")
     .join("admins", "adminNote.adminsId", "admins.id")
     .select(
+      "admins.id",
       "adminNote.id",
       "stories.title",
       "stories.story",
