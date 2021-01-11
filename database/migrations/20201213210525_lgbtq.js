@@ -16,7 +16,7 @@ exports.up = function(knex) {
       .createTable("stories", (tbl) => {
         tbl.increments();
         tbl.string("title", 50).index().notNullable();
-        tbl.string("story", 500).notNullable();
+        tbl.string("story", 2000).notNullable();
         tbl.string("tags", 50).index().notNullable();
         tbl
           .integer("usersId")
