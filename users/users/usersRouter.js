@@ -46,6 +46,22 @@ router.post("/", checkRoles(["admin"]), (req, res) => {
   }
 });
 
+router.delete("/:id", (req, res) => {
+  const id = req.params.id;
+
+  Users.destroy(id)
+    .then((bye) => {
+      if (bye) {
+        res.status(200).json({ removed: bye });
+      } else {
+        res.status(404).json({ message: "Could not find user" });
+      }
+    })
+    .catch((error) => {
+      res.status(500).json({ message: error });
+    });
+});
+
 function checkRoles(roles) {
   return function (req, res, next) {
     const role = req.jwt.role;
