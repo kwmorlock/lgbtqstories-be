@@ -107,4 +107,11 @@ Important note, back end goes to sleep without use, and might take up to 10 seco
 | note | string | yes | no | admin note |
 | adminsId | integer | yes | no | admins id |
 
+# Users Endpoints
+| Request | URL | Description |
+| ------- | --- | ----------- |
+| GET | api/users/users | get all users (needs to be logged in) |
+| DELETE | api/users/users/:id | delete specific user |
+
+
 
