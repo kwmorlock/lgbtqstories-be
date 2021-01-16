@@ -113,5 +113,14 @@ Important note, back end goes to sleep without use, and might take up to 10 seco
 | GET | api/users/users | get all users (needs to be logged in) |
 | DELETE | api/users/users/:id | delete specific user |
 
+# Users
+| Name | Type | Required | Unique | Notes |
+| ---- | ---- | -------- | ------ | ----- |
+| id | integer | yes | yes | user id |
+| username | string | yes | yes | user's name|
+| password | string | yes | no | password |
+| email | string | yes | yes | email |
+
+
 
 
