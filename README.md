@@ -61,7 +61,7 @@ Important note, back end goes to sleep without use, and might take up to 10 seco
 | POST | /api/users/auth/login | login as an existing user |
 | POST | /api/admins/auth/login | login as an existing admin |
 
-# Users
+# Register / Login
 | Name | Type | Required | Unique | Notes |
 | ---- | ---- | -------- | ------ | ----- |
 | username | string | yes | yes | users username |
