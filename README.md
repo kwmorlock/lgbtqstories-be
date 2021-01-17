@@ -20,6 +20,21 @@ Back End - A Node.JS Express API using SQL query builder [knex](https://www.npmj
 
 ---
 
+## Login Info
+
+Admins 
+
+(Note: Admins cannot register themselves, please use these logins)
+
+---
+
+| Username | password |
+| ------- | --- |
+| adminone | adminone|
+| admintwo | admintwo |
+
+---
+
 ## Deployed
 
 ---
