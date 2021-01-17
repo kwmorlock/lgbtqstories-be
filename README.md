@@ -67,6 +67,7 @@ Important note, back end goes to sleep without use, and might take up to 10 seco
 | Fix | Fix errors or bugs |
 | Rea | Read me update |
 | Set | Setup a new function etc |
+| Sty | Styling and design |
 | Upd | Update code for improved or more relevant use |
 
 # Register / Login Endpoints
