@@ -24,7 +24,7 @@ Back End - A Node.JS [express](https://www.npmjs.com/package/express) API using 
 
 Admins 
 
-(Note: Admins cannot register themselves, please use these logins)
+(Note: Admins cannot register themselves, please use these logins, and only on the admin section!)
 
 ---
 
